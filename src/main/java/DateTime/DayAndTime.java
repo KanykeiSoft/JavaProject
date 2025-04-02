@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class DayAndTime {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter date (year-month-day): ");
+        System.out.print("Enter  date (year-month-day): ");
         String input = scanner.nextLine();
 
         try {
