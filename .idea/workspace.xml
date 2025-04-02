@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ad68986-ce45-484a-b113-7056e69a447e" name="Changes" comment="date">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Arrays/MarkCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DateTime/DayAndTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Loops/LoopsTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DataFirst.java" beforeDir="false" />
-    </list>
+    <list default="true" id="3ad68986-ce45-484a-b113-7056e69a447e" name="Changes" comment="date" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,6 +33,7 @@
   "keyToString": {
     "Application.CarMain.executor": "Run",
     "Application.DataFirst.executor": "Debug",
+    "Application.DayAndTime.executor": "Run",
     "Application.LoopsTask.executor": "Run",
     "Application.MarkCalculator.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -89,7 +84,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743565666163</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="date">
+      <option name="closed" value="true" />
+      <created>1743567993534</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1743567993534</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
