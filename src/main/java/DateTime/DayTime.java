@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class DayTime {
    private static int year;
    private static int month;
-   private static int day;
+   private static        int day;
 
     public static void getDay() {
         try{

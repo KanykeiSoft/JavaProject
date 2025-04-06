@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ad68986-ce45-484a-b113-7056e69a447e" name="Changes" comment="date">
-      <change afterPath="$PROJECT_DIR$/src/main/java/DateTime/DayTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Loops/CharacterFinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MethodJ/MinMaxFinder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DateTime/DayAndTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DateTime/DayAndTime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DateTime/DayTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DateTime/DayTime.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +121,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743569007860</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="date">
+      <option name="closed" value="true" />
+      <created>1743813737838</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1743813737838</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
