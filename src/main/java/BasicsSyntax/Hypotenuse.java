@@ -9,7 +9,7 @@ public class Hypotenuse {
         double b = sc.nextDouble();
         if(a <= 100 && b <=100){
             double c = Math.sqrt(a * a + b * b);
-            System.out.println("Гипотенуза: " + c);
+            System.out.println(c);
         }
     }
 }
