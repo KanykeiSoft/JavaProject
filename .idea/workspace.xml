@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ad68986-ce45-484a-b113-7056e69a447e" name="Changes" comment="overloading" />
+    <list default="true" id="3ad68986-ce45-484a-b113-7056e69a447e" name="Changes" comment="overloading">
+      <change afterPath="$PROJECT_DIR$/src/main/java/BasicsSyntax/Task1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,6 +46,7 @@
     "Application.MarkCalculator.executor": "Run",
     "Application.MinMaxFinder.executor": "Run",
     "Application.OverLoad.executor": "Run",
+    "Application.Task1.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "/Users/koka/Desktop/Java/javaProject/src/main/java/org/example/Main.java",
@@ -58,7 +62,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Hypotenuse">
+  <component name="RunManager" selected="Application.Task1">
     <configuration name="BankAccountConstrOver_Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Constructors.BankAccountConstrOver_Main" />
       <module name="JavaProject" />
@@ -111,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OverLoad" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MethodJ.OverLoad" />
+    <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BasicsSyntax.Task1" />
       <module name="JavaProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MethodJ.*" />
+          <option name="PATTERN" value="BasicsSyntax.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task1" />
         <item itemvalue="Application.Hypotenuse" />
         <item itemvalue="Application.BankAccountConstrOver_Main" />
         <item itemvalue="Application.DateTypee" />
         <item itemvalue="Application.BankAccount_Main" />
-        <item itemvalue="Application.OverLoad" />
       </list>
     </recent_temporary>
   </component>
@@ -247,7 +251,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744236072495</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="overloading">
+      <option name="closed" value="true" />
+      <created>1744236545394</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1744236545394</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
