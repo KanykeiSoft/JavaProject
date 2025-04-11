@@ -12,4 +12,9 @@ public class RectangleFields {
         double area =this.length + this.width;
         return area;
     }
+
+    public double calculatePerimetr(){
+        double perimetr = 2 + (this.length + this.width);
+        return perimetr;
+    }
 }
