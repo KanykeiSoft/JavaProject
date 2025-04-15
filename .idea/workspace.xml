@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ad68986-ce45-484a-b113-7056e69a447e" name="Changes" comment="conditional">
-      <change afterPath="$PROJECT_DIR$/src/main/java/BasicsSyntax/MaxNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BasicsSyntax/Remainder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BasicsSyntax/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Mp/MapTask.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BasicsSyntax/Chocolate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BasicsSyntax/Chocolate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BasicsSyntax/Hypotenuse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BasicsSyntax/Hypotenuse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BasicsSyntax/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BasicsSyntax/Task1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +41,7 @@
     "Application.BankAccountConstrOver_Main.executor": "Run",
     "Application.BankAccount_Main.executor": "Run",
     "Application.CarMain.executor": "Run",
-    "Application.Chocolate.executor": "Run",
+    "Application.Chocolate.executor": "Debug",
     "Application.DataFirst.executor": "Debug",
     "Application.DateTypee.executor": "Run",
     "Application.DayAndTime.executor": "Run",
@@ -48,6 +50,7 @@
     "Application.Hypotenuse.executor": "Run",
     "Application.Leap_Year.executor": "Run",
     "Application.LoopsTask.executor": "Run",
+    "Application.MapTask.executor": "Run",
     "Application.MarkCalculator.executor": "Run",
     "Application.MaxNumber.executor": "Run",
     "Application.MinMaxFinder.executor": "Run",
@@ -55,7 +58,9 @@
     "Application.RectangleFields_Main.executor": "Run",
     "Application.Remainder.executor": "Run",
     "Application.SignOfThe_Number.executor": "Run",
-    "Application.Task1.executor": "Run",
+    "Application.Task (1).executor": "Run",
+    "Application.Task.executor": "Run",
+    "Application.Task1.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "/Users/koka/Desktop/Java/javaProject/src/main/java/org/example/Main.java",
@@ -71,7 +76,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Remainder">
+  <component name="RunManager" selected="Application.MapTask">
     <configuration name="Chocolate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BasicsSyntax.Chocolate" />
       <module name="JavaProject" />
@@ -98,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BasicsSyntax.MaxNumber" />
+    <configuration name="MapTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Mp.MapTask" />
       <module name="JavaProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BasicsSyntax.*" />
+          <option name="PATTERN" value="Mp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,21 +116,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Remainder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BasicsSyntax.Remainder" />
+    <configuration name="Task (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task" />
       <module name="JavaProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BasicsSyntax.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SignOfThe_Number" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BasicsSyntax.SignOfThe_Number" />
+    <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BasicsSyntax.Task1" />
       <module name="JavaProject" />
       <extension name="coverage">
         <pattern>
@@ -139,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Remainder" />
+        <item itemvalue="Application.MapTask" />
         <item itemvalue="Application.Factorial" />
-        <item itemvalue="Application.MaxNumber" />
-        <item itemvalue="Application.SignOfThe_Number" />
         <item itemvalue="Application.Chocolate" />
+        <item itemvalue="Application.Task1" />
+        <item itemvalue="Application.Task (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -356,7 +355,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744495245262</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="conditional">
+      <option name="closed" value="true" />
+      <created>1744512160700</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1744512160700</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -383,6 +390,26 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/BasicsSyntax/Task.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/BasicsSyntax/SignOfThe_Number.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/BasicsSyntax/Chocolate.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/BasicsSyntax/Factorial.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
