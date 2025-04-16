@@ -29,7 +29,7 @@ public class Task1 {
             }
 
         }
-        System.out.println(count);  // выводим общее количество нулей
+        System.out.println(count);
         sc.close();
     }
 }
