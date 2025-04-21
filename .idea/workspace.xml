@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ad68986-ce45-484a-b113-7056e69a447e" name="Changes" comment="conditional">
-      <change afterPath="$PROJECT_DIR$/src/main/java/MethodJ/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MethodJ/HourlyEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MethodJ/Overriding_Main.java" afterDir="false" />
+    <list default="true" id="3ad68986-ce45-484a-b113-7056e69a447e" name="Changes" comment="overloading">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ObjectClass/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ObjectClass/Course_Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Chase/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Chase/Knight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Chase/Pawn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Chase/Pawn.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Chase/Piece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Chase/Piece.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,13 +80,13 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Overriding_Main">
-    <configuration name="MapTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Mp.MapTask" />
+  <component name="RunManager" selected="Application.Course_Main">
+    <configuration name="Course_Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ObjectClass.Course_Main" />
       <module name="JavaProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Mp.*" />
+          <option name="PATTERN" value="ObjectClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Course_Main" />
         <item itemvalue="Application.Overriding_Main" />
         <item itemvalue="Application.Schedule" />
         <item itemvalue="Application.TaskNumber" />
         <item itemvalue="Application.PCake" />
-        <item itemvalue="Application.MapTask" />
       </list>
     </recent_temporary>
   </component>
@@ -404,7 +405,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745209405769</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="overloading">
+      <option name="closed" value="true" />
+      <created>1745258496840</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1745258496840</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -420,9 +429,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="date" />
-    <MESSAGE value="overloading" />
     <MESSAGE value="conditional" />
-    <option name="LAST_COMMIT_MESSAGE" value="conditional" />
+    <MESSAGE value="overloading" />
+    <option name="LAST_COMMIT_MESSAGE" value="overloading" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
