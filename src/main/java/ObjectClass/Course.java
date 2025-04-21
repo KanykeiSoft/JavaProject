@@ -14,6 +14,6 @@ public class Course {
 
     @Override
     public String toString() {
-        return "Course{name='" + name + ", creditHours=" + creditHours + "instructor=}" + instructor;
+        return "Course{name='" + name + ", creditHours=" + creditHours + "instructor= }" + instructor;
     }
 }
