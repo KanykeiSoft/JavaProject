@@ -15,5 +15,6 @@ public class Address {
         addreddString += "\tAddress\n";
         addreddString += "======================\n";
         addreddString += "street = " + street;
+        return addreddString;
     }
 }
