@@ -8,7 +8,7 @@ public class CreditCardPayment implements Payable{
 
     @Override
     public void pay(double amount) {
-        System.out.println("ss \n" +amount, ca);
+        System.out.println("ss \n" +amount);
     }
 
 //    @Override
