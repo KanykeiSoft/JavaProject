@@ -5,21 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ad68986-ce45-484a-b113-7056e69a447e" name="Changes" comment="Object">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Bank_app/Bank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Bank_app/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Bank_app/BankAccountOwner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Bank_app/CheckingAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Bank_app/CurrentAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Bank_app/SavingAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Com.AbstractTask/LocalMobile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Com.AbstractTask/MobilePhone_Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Menu/BankAppMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Menu/BankApp_Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ModelsPhones/Zyrex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Bank_app/BankAppDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Compositions/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Compositions/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Compositions/Composition_Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Compositions/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Compositions/Employee1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GrowthHungry/CreditCardPayment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GrowthHungry/CreditCardPayment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ModelsPhones/Iphone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ModelsPhones/Iphone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ModelsPhones/Sumsung.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ModelsPhones/Sumsung.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Bank_app/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bank_app/Bank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Bank_app/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bank_app/BankAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Bank_app/CheckingAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bank_app/CheckingAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Bank_app/CurrentAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bank_app/CurrentAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Bank_app/SavingAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bank_app/SavingAccount.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -461,7 +458,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745554011979</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Object">
+      <option name="closed" value="true" />
+      <created>1745628100462</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1745628100462</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
