@@ -2,8 +2,6 @@ package Compositions;
 
 import java.time.LocalDate;
 
-import javax.swing.*;
-
 public class Company {
     private String name;
     private String website;
@@ -13,7 +11,7 @@ public class Company {
     private int index = 0;
     private final int totalDepartments;
 
-    public Company(String name, String website, Address address, int totalDepartments){
+    public Company(String name, String website, int totalDepartments){
         this.name = name;
         this.website = website;
         this.totalDepartments = totalDepartments;

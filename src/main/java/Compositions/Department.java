@@ -31,4 +31,47 @@ public class Department {
         }
     }
 
+    @Override
+    public String toString() {
+        String departmentString = "";
+        departmentString +="\n====================\n";
+        departmentString += "\tDepartment\n";
+        departmentString += "======================\n";
+        departmentString += "name =" +name;
+        departmentString += "\ndescription = "+ description;
+        departmentString += "\nemployeeCapacity = "+ employeeCapacity;
+        for(int i = 0; i < index; i++ ){
+            departmentString += this.employees[i].toString();
+        }
+
+        return departmentString;
+
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public int getEmployeeCapacity() {
+        return employeeCapacity;
+    }
+
+    public Employee1[] getEmployees(){
+        return employees;
+    }
+    public int  getIndex(int index){
+        return  index;
+    }
 }

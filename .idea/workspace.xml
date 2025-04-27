@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ad68986-ce45-484a-b113-7056e69a447e" name="Changes" comment="Composition, abstract, &#10;protected">
+      <change afterPath="$PROJECT_DIR$/src/main/java/BasicsSyntax/SubStringF.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Compositions/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Compositions/Address.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Compositions/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Compositions/Company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Compositions/Composition_Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Compositions/Composition_Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Compositions/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Compositions/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Compositions/Employee1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Compositions/Employee1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +43,7 @@
     "Application.BankAccount_Main.executor": "Run",
     "Application.CarMain.executor": "Run",
     "Application.Chocolate.executor": "Debug",
+    "Application.Composition_Main.executor": "Run",
     "Application.Course_Main.executor": "Run",
     "Application.CreditCardPayment.executor": "Run",
     "Application.DataFirst.executor": "Debug",
@@ -65,6 +68,7 @@
     "Application.Schedule.executor": "Run",
     "Application.SignOfThe_Number.executor": "Run",
     "Application.Student_Main.executor": "Run",
+    "Application.SubStringF.executor": "Run",
     "Application.Task (1).executor": "Run",
     "Application.Task.executor": "Run",
     "Application.Task1.executor": "Debug",
@@ -85,13 +89,13 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MobilePhone_Main">
-    <configuration name="Course_Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ObjectClass.Course_Main" />
+  <component name="RunManager" selected="Application.SubStringF">
+    <configuration name="Composition_Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Compositions.Composition_Main" />
       <module name="JavaProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ObjectClass.*" />
+          <option name="PATTERN" value="Compositions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,19 +129,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberGraet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BasicsSyntax.NumberGraet" />
-      <module name="JavaProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BasicsSyntax.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Student_Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FinalTest.Student_Main" />
       <module name="JavaProject" />
@@ -151,13 +142,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SubStringF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BasicsSyntax.SubStringF" />
+      <module name="JavaProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BasicsSyntax.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SubStringF" />
+        <item itemvalue="Application.Composition_Main" />
         <item itemvalue="Application.MobilePhone_Main" />
         <item itemvalue="Application.CreditCardPayment" />
         <item itemvalue="Application.Student_Main" />
-        <item itemvalue="Application.NumberGraet" />
-        <item itemvalue="Application.Course_Main" />
       </list>
     </recent_temporary>
   </component>
@@ -474,7 +478,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745696328324</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Composition, abstract, &#10;protected">
+      <option name="closed" value="true" />
+      <created>1745702862180</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1745702862180</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
