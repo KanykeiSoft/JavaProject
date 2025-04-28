@@ -7,10 +7,14 @@ public class CashPayment implements Payable{
 
     @Override
     public void pay(double amount) {
-        System.out.println("");
+        System.out.println("Payment succesful" + amount);
+
 
 
     }
 
-
+    @Override
+    public void refund(double amount) {
+        System.out.println("Returngndgbdg" + amount);
+    }
 }
