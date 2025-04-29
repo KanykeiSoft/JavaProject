@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ad68986-ce45-484a-b113-7056e69a447e" name="Changes" comment="Composition, abstract, &#10;protected">
-      <change afterPath="$PROJECT_DIR$/src/main/java/GrowthHungry/Payable_Processor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/GrowthHungry/Payment_Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Vehicle/Bicycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Vehicle/Train.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Vehicle/TransportVehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Shape_Area/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Shape_Area/Shape.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BasicsSyntax/SubStringF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BasicsSyntax/SubStringF.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GrowthHungry/CashPayment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GrowthHungry/CashPayment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GrowthHungry/CreditCardPayment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GrowthHungry/CreditCardPayment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GrowthHungry/Payable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GrowthHungry/Payable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -499,7 +492,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745722739530</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Composition, abstract, &#10;protected">
+      <option name="closed" value="true" />
+      <created>1745801474868</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1745801474868</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
