@@ -12,15 +12,20 @@ import java.util.Scanner;
 public class Remainder {
         public static void main(String[] args) {
             Scanner scan = new Scanner(System.in);
-            int a = scan.nextInt();
-            int b = scan.nextInt();
-            int c = scan.nextInt();
-            int d = scan.nextInt();
-            for (int i = a; i <= b; i++ ) {
-                if ( i % d == c ) {
-                    System.out.println(i);
-                }
+            String a = scan.nextLine();
+            for (int i = 0;  i < a.length(); i--){
+                 StringBuilder s = new StringBuilder();
+                s.reverse();
+                System.out.println(s);
             }
+//            int b = scan.nextInt();
+//            int c = scan.nextInt();
+//            int d = scan.nextInt();
+//            for (int i = a; i <= b; i++ ) {
+//                if ( i % d == c ) {
+//                    System.out.println(i);
+//                }
+//            }
         }
     }
 

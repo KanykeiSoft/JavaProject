@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ad68986-ce45-484a-b113-7056e69a447e" name="Changes" comment="Interface">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Shape_Area/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Colection/HashMap_Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Colection/Stack_Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BasicsSyntax/Remainder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BasicsSyntax/Remainder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,26 +88,13 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Payment_Main">
+  <component name="RunManager" selected="Application.Remainder">
     <configuration name="Composition_Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Compositions.Composition_Main" />
       <module name="JavaProject" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Compositions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CreditCardPayment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GrowthHungry.CreditCardPayment" />
-      <module name="JavaProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Vehicle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,6 +128,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Remainder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BasicsSyntax.Remainder" />
+      <module name="JavaProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BasicsSyntax.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SubStringF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BasicsSyntax.SubStringF" />
       <module name="JavaProject" />
@@ -153,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Remainder" />
         <item itemvalue="Application.Payment_Main" />
         <item itemvalue="Application.SubStringF" />
         <item itemvalue="Application.Composition_Main" />
         <item itemvalue="Application.MobilePhone_Main" />
-        <item itemvalue="Application.CreditCardPayment" />
       </list>
     </recent_temporary>
   </component>
@@ -514,7 +517,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745895028726</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Interface">
+      <option name="closed" value="true" />
+      <created>1745895552547</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1745895552547</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
