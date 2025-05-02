@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ad68986-ce45-484a-b113-7056e69a447e" name="Changes" comment="Stack">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Colection/HashMap_Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Colection/HashMap_Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Colection/Stack_First.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Colection/Stack_Main.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BasicsSyntax/Polindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Book_Contact/Contact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Book_Contact/PhoneBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Book_Contact/PhoneBookDrive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +63,7 @@
     "Application.Overriding_Main.executor": "Run",
     "Application.PCake.executor": "Debug",
     "Application.Payment_Main.executor": "Run",
+    "Application.Polindrome.executor": "Run",
     "Application.RectangleFields_Main.executor": "Run",
     "Application.Remainder.executor": "Run",
     "Application.Schedule.executor": "Run",
@@ -87,7 +90,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Remainder">
+  <component name="RunManager" selected="Application.Polindrome">
     <configuration name="Composition_Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Compositions.Composition_Main" />
       <module name="JavaProject" />
@@ -101,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MobilePhone_Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Com.AbstractTask.MobilePhone_Main" />
+    <configuration name="Payment_Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GrowthHungry.Payment_Main" />
       <module name="JavaProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ModelsPhones.*" />
+          <option name="PATTERN" value="Vehicle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Payment_Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GrowthHungry.Payment_Main" />
+    <configuration name="Polindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BasicsSyntax.Polindrome" />
       <module name="JavaProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Vehicle.*" />
+          <option name="PATTERN" value="BasicsSyntax.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Polindrome" />
         <item itemvalue="Application.Remainder" />
         <item itemvalue="Application.Payment_Main" />
         <item itemvalue="Application.SubStringF" />
         <item itemvalue="Application.Composition_Main" />
-        <item itemvalue="Application.MobilePhone_Main" />
       </list>
     </recent_temporary>
   </component>
@@ -532,7 +535,23 @@
       <option name="project" value="LOCAL" />
       <updated>1746068103469</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Stack">
+      <option name="closed" value="true" />
+      <created>1746068930250</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1746068930250</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Stack">
+      <option name="closed" value="true" />
+      <created>1746068982522</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1746068982522</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
