@@ -17,8 +17,12 @@ public class PhoneBookDrive {
         System.out.println("Enter contact number:");
         String contactNumber = this.scanner.nextLine();
 
-        Contact newContact = new Contact();
+        Contact newContact = new Contact(contactName, contactNumber);
         this.phonebook.addContact(newContact);
 
     }
+    public void removeContact(){
+//        String contactNumber = this.takeContactNumber();
+//        this.phonebook.addContact(newContact);
+   }
 }

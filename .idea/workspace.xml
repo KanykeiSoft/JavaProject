@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ad68986-ce45-484a-b113-7056e69a447e" name="Changes" comment="Stack">
-      <change afterPath="$PROJECT_DIR$/src/main/java/BasicsSyntax/Polindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Book_Contact/Contact.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Book_Contact/PhoneBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Book_Contact/PhoneBookDrive.java" afterDir="false" />
+    <list default="true" id="3ad68986-ce45-484a-b113-7056e69a447e" name="Changes" comment="Polidrome">
+      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Dublicate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BasicsSyntax/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BasicsSyntax/Factorial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Book_Contact/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Book_Contact/Contact.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Book_Contact/PhoneBookDrive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Book_Contact/PhoneBookDrive.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,53 +36,53 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.BankAccountConstrOver_Main.executor": "Run",
-    "Application.BankAccount_Main.executor": "Run",
-    "Application.CarMain.executor": "Run",
-    "Application.Chocolate.executor": "Debug",
-    "Application.Composition_Main.executor": "Run",
-    "Application.Course_Main.executor": "Run",
-    "Application.CreditCardPayment.executor": "Run",
-    "Application.DataFirst.executor": "Debug",
-    "Application.DateTypee.executor": "Run",
-    "Application.DayAndTime.executor": "Run",
-    "Application.DayTime.executor": "Run",
-    "Application.Factorial.executor": "Debug",
-    "Application.Hypotenuse.executor": "Run",
-    "Application.Leap_Year.executor": "Run",
-    "Application.LoopsTask.executor": "Run",
-    "Application.MapTask.executor": "Run",
-    "Application.MarkCalculator.executor": "Run",
-    "Application.MaxNumber.executor": "Run",
-    "Application.MinMaxFinder.executor": "Run",
-    "Application.MobilePhone_Main.executor": "Run",
-    "Application.NumberGraet.executor": "Run",
-    "Application.OverLoad.executor": "Run",
-    "Application.Overriding_Main.executor": "Run",
-    "Application.PCake.executor": "Debug",
-    "Application.Payment_Main.executor": "Run",
-    "Application.Polindrome.executor": "Run",
-    "Application.RectangleFields_Main.executor": "Run",
-    "Application.Remainder.executor": "Run",
-    "Application.Schedule.executor": "Run",
-    "Application.SignOfThe_Number.executor": "Run",
-    "Application.Student_Main.executor": "Run",
-    "Application.SubStringF.executor": "Run",
-    "Application.Task (1).executor": "Run",
-    "Application.Task.executor": "Run",
-    "Application.Task1.executor": "Debug",
-    "Application.TaskNumber.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "/Users/koka/Desktop/Java/javaProject/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.BankAccountConstrOver_Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BankAccount_Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CarMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Chocolate.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Composition_Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Course_Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CreditCardPayment.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DataFirst.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.DateTypee.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DayAndTime.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DayTime.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Factorial.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Hypotenuse.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Leap_Year.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LoopsTask.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MapTask.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MarkCalculator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaxNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MinMaxFinder.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MobilePhone_Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NumberGraet.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OverLoad.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Overriding_Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PCake.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Payment_Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Polindrome.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RectangleFields_Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Remainder.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Schedule.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SignOfThe_Number.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Student_Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SubStringF.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Task (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Task.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Task1.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.TaskNumber.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/koka/Desktop/Java/javaProject/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java" />
@@ -90,13 +90,13 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Polindrome">
-    <configuration name="Composition_Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Compositions.Composition_Main" />
+  <component name="RunManager" selected="Application.Factorial">
+    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BasicsSyntax.Factorial" />
       <module name="JavaProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Compositions.*" />
+          <option name="PATTERN" value="BasicsSyntax.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Factorial" />
         <item itemvalue="Application.Polindrome" />
         <item itemvalue="Application.Remainder" />
         <item itemvalue="Application.Payment_Main" />
         <item itemvalue="Application.SubStringF" />
-        <item itemvalue="Application.Composition_Main" />
       </list>
     </recent_temporary>
   </component>
@@ -551,7 +551,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746068982522</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Polidrome">
+      <option name="closed" value="true" />
+      <created>1746156315947</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1746156315947</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -573,7 +581,8 @@
     <MESSAGE value="Composition, abstract, &#10;protected" />
     <MESSAGE value="Interface" />
     <MESSAGE value="Stack" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stack" />
+    <MESSAGE value="Polidrome" />
+    <option name="LAST_COMMIT_MESSAGE" value="Polidrome" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -594,11 +603,6 @@
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/BasicsSyntax/Factorial.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/BasicsSyntax/PCake.java</url>
           <line>16</line>
           <option name="timeStamp" value="7" />
@@ -613,7 +617,26 @@
           <line>5</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Colection/HashMap_Main.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/BasicsSyntax/Factorial.java</url>
+          <line>6</line>
+          <properties class="BasicsSyntax.Factorial" method="factorial">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/JavaProject$Factorial.ic" NAME="Factorial Coverage Results" MODIFIED="1746239261903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>BasicsSyntax.*</FILTER>
+    </SUITE>
   </component>
 </project>
