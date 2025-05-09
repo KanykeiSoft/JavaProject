@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ad68986-ce45-484a-b113-7056e69a447e" name="Changes" comment="Polidrome">
-      <change afterPath="$PROJECT_DIR$/src/main/java/BasicsSyntax/TwoSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Set_simple/Set_Main.java" afterDir="false" />
+    <list default="true" id="3ad68986-ce45-484a-b113-7056e69a447e" name="Changes" comment="Set">
+      <change afterPath="$PROJECT_DIR$/src/main/java/BasicsSyntax/SomeNum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LeetCode/Dublicate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BasicsSyntax/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BasicsSyntax/Factorial.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +47,7 @@
     "Application.DateTypee.executor": "Run",
     "Application.DayAndTime.executor": "Run",
     "Application.DayTime.executor": "Run",
-    "Application.Factorial.executor": "Debug",
+    "Application.Factorial.executor": "Run",
     "Application.Hypotenuse.executor": "Run",
     "Application.Leap_Year.executor": "Run",
     "Application.LoopsTask.executor": "Run",
@@ -68,6 +67,8 @@
     "Application.Schedule.executor": "Run",
     "Application.Set_Main.executor": "Run",
     "Application.SignOfThe_Number.executor": "Run",
+    "Application.SomeNum (1).executor": "Debug",
+    "Application.SomeNum.executor": "Run",
     "Application.Student_Main.executor": "Run",
     "Application.SubStringF.executor": "Run",
     "Application.Task (1).executor": "Run",
@@ -90,7 +91,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Set_Main">
+  <component name="RunManager" selected="Application.SomeNum (1)">
     <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BasicsSyntax.Factorial" />
       <module name="JavaProject" />
@@ -104,34 +105,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Payment_Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GrowthHungry.Payment_Main" />
-      <module name="JavaProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Vehicle.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Polindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BasicsSyntax.Polindrome" />
-      <module name="JavaProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BasicsSyntax.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Remainder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BasicsSyntax.Remainder" />
       <module name="JavaProject" />
       <extension name="coverage">
         <pattern>
@@ -156,13 +131,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SomeNum (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SomeNum" />
+      <module name="JavaProject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SomeNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BasicsSyntax.SomeNum" />
+      <module name="JavaProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BasicsSyntax.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Set_Main" />
+        <item itemvalue="Application.SomeNum (1)" />
         <item itemvalue="Application.Factorial" />
+        <item itemvalue="Application.SomeNum" />
+        <item itemvalue="Application.Set_Main" />
         <item itemvalue="Application.Polindrome" />
-        <item itemvalue="Application.Remainder" />
-        <item itemvalue="Application.Payment_Main" />
       </list>
     </recent_temporary>
   </component>
@@ -174,14 +169,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1743475369187</updated>
-    </task>
-    <task id="LOCAL-00001" summary="date">
-      <option name="closed" value="true" />
-      <created>1743564966697</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1743564966697</updated>
     </task>
     <task id="LOCAL-00002" summary="date">
       <option name="closed" value="true" />
@@ -567,7 +554,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746494262509</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Set">
+      <option name="closed" value="true" />
+      <created>1746740900737</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1746740900737</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -590,7 +585,8 @@
     <MESSAGE value="Interface" />
     <MESSAGE value="Stack" />
     <MESSAGE value="Polidrome" />
-    <option name="LAST_COMMIT_MESSAGE" value="Polidrome" />
+    <MESSAGE value="Set" />
+    <option name="LAST_COMMIT_MESSAGE" value="Set" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -625,14 +621,10 @@
           <line>5</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/BasicsSyntax/Factorial.java</url>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/BasicsSyntax/SomeNum.java</url>
           <line>6</line>
-          <properties class="BasicsSyntax.Factorial" method="factorial">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="14" />
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
