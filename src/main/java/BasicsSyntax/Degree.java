@@ -1,5 +1,5 @@
 
-
+package BasicsSyntax;
 import java.util.Scanner;
 
 public class Degree {
