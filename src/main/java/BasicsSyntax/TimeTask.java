@@ -9,8 +9,8 @@ public class TimeTask {
 
         int minutesInDay = n % 1440;
         int hours = minutesInDay / 60;
-        int minute = minutesInDay % 60;
+        int minutes = minutesInDay % 60;
 
-        System.out.println(hours + " " + minute);
+        System.out.println(hours + " " + minutes);
     }
 }
