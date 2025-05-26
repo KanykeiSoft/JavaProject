@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ad68986-ce45-484a-b113-7056e69a447e" name="Changes" comment="array">
-      <change afterPath="$PROJECT_DIR$/src/main/java/BasicsSyntax/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Streams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Vehicle/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FactorialTest.java" afterDir="false" />
+    <list default="true" id="3ad68986-ce45-484a-b113-7056e69a447e" name="Changes" comment="Test">
+      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/ListNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Streams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Streams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Vehicle/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Vehicle/input.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +55,7 @@
     "Application.Geometri.executor": "Run",
     "Application.Hypotenuse.executor": "Run",
     "Application.Leap_Year.executor": "Run",
+    "Application.ListNode.executor": "Run",
     "Application.LoopsTask.executor": "Run",
     "Application.MapTask.executor": "Run",
     "Application.MarkCalculator.executor": "Run",
@@ -92,7 +92,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -103,7 +103,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FactorialTest">
+  <component name="RunManager" selected="Application.ListNode">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BasicsSyntax.BinarySearch" />
       <module name="JavaProject" />
@@ -117,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BasicsSyntax.CountArrays" />
+    <configuration name="ListNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.ListNode" />
       <module name="JavaProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BasicsSyntax.*" />
+          <option name="PATTERN" value="LeetCode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FactorialTest" />
+        <item itemvalue="Application.ListNode" />
         <item itemvalue="Application.Streams" />
+        <item itemvalue="JUnit.FactorialTest" />
         <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.Reverse" />
-        <item itemvalue="Application.CountArrays" />
       </list>
     </recent_temporary>
   </component>
@@ -171,14 +171,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1743475369187</updated>
-    </task>
-    <task id="LOCAL-00012" summary="overloading">
-      <option name="closed" value="true" />
-      <created>1744174494442</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1744174494442</updated>
     </task>
     <task id="LOCAL-00013" summary="overloading">
       <option name="closed" value="true" />
@@ -564,7 +556,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747282619263</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Test">
+      <option name="closed" value="true" />
+      <created>1747883331457</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1747883331457</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -591,7 +591,8 @@
     <MESSAGE value="loop" />
     <MESSAGE value="time" />
     <MESSAGE value="array" />
-    <option name="LAST_COMMIT_MESSAGE" value="array" />
+    <MESSAGE value="Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -638,7 +639,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/Streams.java</url>
-          <line>3</line>
+          <line>4</line>
           <properties class="Streams" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
