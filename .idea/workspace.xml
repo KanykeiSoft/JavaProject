@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ad68986-ce45-484a-b113-7056e69a447e" name="Changes" comment="Test">
-      <change afterPath="$PROJECT_DIR$/src/main/java/BasicsSyntax/Balls.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/SortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/animals.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/MissingRanges.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/RemoveArrayDuplicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WebApi/Animals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WebApi/WordCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WebApi/Zooapp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LeetCode/SortedArray.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,13 +34,16 @@
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2v6pROIeJH1Z6cOBgWLGEABzNFF" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.BankAccountConstrOver_Main.executor": "Run",
     "Application.BankAccount_Main.executor": "Run",
     "Application.BinarySearch.executor": "Debug",
@@ -69,6 +77,7 @@
     "Application.Polindrome.executor": "Run",
     "Application.RectangleFields_Main.executor": "Run",
     "Application.Remainder.executor": "Run",
+    "Application.RemoveArrayDuplicate.executor": "Run",
     "Application.Reverse.executor": "Run",
     "Application.Schedule.executor": "Run",
     "Application.Set_Main.executor": "Run",
@@ -84,6 +93,7 @@
     "Application.Task12.executor": "Run",
     "Application.TaskNumber.executor": "Debug",
     "Application.TwoNumber.executor": "Run",
+    "Application.Zooapp.executor": "Run",
     "JUnit.FactorialTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "kotlin-language-version-configured": "true",
@@ -102,20 +112,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ListNode">
-    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BasicsSyntax.BinarySearch" />
-      <module name="JavaProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BasicsSyntax.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Zooapp">
     <configuration name="ListNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LeetCode.ListNode" />
       <module name="JavaProject" />
@@ -129,9 +126,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Reverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Reverse" />
+    <configuration name="RemoveArrayDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.RemoveArrayDuplicate" />
       <module name="JavaProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LeetCode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -139,6 +142,19 @@
     <configuration name="Streams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Streams" />
       <module name="JavaProject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Zooapp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WebApi.Zooapp" />
+      <module name="JavaProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WebApi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -154,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Zooapp" />
+        <item itemvalue="Application.RemoveArrayDuplicate" />
         <item itemvalue="Application.ListNode" />
         <item itemvalue="Application.Streams" />
         <item itemvalue="JUnit.FactorialTest" />
-        <item itemvalue="Application.BinarySearch" />
-        <item itemvalue="Application.Reverse" />
       </list>
     </recent_temporary>
   </component>
@@ -170,14 +186,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1743475369187</updated>
-    </task>
-    <task id="LOCAL-00014" summary="overloading">
-      <option name="closed" value="true" />
-      <created>1744236545394</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1744236545394</updated>
     </task>
     <task id="LOCAL-00015" summary="overloading">
       <option name="closed" value="true" />
@@ -563,7 +571,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748231139832</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="Test">
+      <option name="closed" value="true" />
+      <created>1748459566185</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1748459566185</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -578,6 +594,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="date" />
     <MESSAGE value="conditional" />
     <MESSAGE value="overloading" />
