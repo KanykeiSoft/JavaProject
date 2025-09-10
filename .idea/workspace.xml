@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ad68986-ce45-484a-b113-7056e69a447e" name="Changes" comment="Test">
-      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Number_theory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Arrays/Cup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Arrays/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Reverse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +60,7 @@
     "Application.Leap_Year.executor": "Run",
     "Application.ListNode.executor": "Run",
     "Application.LoopsTask.executor": "Run",
+    "Application.Main.executor": "Run",
     "Application.MapTask.executor": "Run",
     "Application.MarkCalculator.executor": "Run",
     "Application.MaxNumber.executor": "Run",
@@ -108,7 +112,20 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Number_OfTheory">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.Main" />
+      <module name="JavaProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MissingRanges" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LeetCode.MissingRanges" />
       <module name="JavaProject" />
@@ -148,19 +165,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveArrayDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.RemoveArrayDuplicate" />
-      <module name="JavaProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LeetCode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Zooapp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="WebApi.Zooapp" />
       <module name="JavaProject" />
@@ -176,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Number_OfTheory" />
         <item itemvalue="Application.MissingRanges" />
         <item itemvalue="Application.NextGreatestLetter" />
         <item itemvalue="Application.Zooapp" />
-        <item itemvalue="Application.RemoveArrayDuplicate" />
       </list>
     </recent_temporary>
   </component>
@@ -192,14 +196,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1743475369187</updated>
-    </task>
-    <task id="LOCAL-00017" summary="overloading">
-      <option name="closed" value="true" />
-      <created>1744343268331</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1744343268331</updated>
     </task>
     <task id="LOCAL-00018" summary="overloading">
       <option name="closed" value="true" />
@@ -585,7 +581,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750469773657</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="Test">
+      <option name="closed" value="true" />
+      <created>1750627062129</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1750627062129</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -660,9 +664,14 @@
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/LeetCode/Number_OfTheory.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="18" />
+          <url>file://$PROJECT_DIR$/src/main/java/LeetCode/Number_theory.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Arrays/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/Streams.java</url>
