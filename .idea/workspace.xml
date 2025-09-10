@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ad68986-ce45-484a-b113-7056e69a447e" name="Changes" comment="Test">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Arrays/Flower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Arrays/RemoveNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Arrays/TargetSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Arrays/Cup.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +78,7 @@
     "Application.RectangleFields_Main.executor": "Run",
     "Application.Remainder.executor": "Run",
     "Application.RemoveArrayDuplicate.executor": "Run",
+    "Application.RemoveNum.executor": "Run",
     "Application.Reverse.executor": "Run",
     "Application.Schedule.executor": "Run",
     "Application.Set_Main.executor": "Run",
@@ -87,6 +88,7 @@
     "Application.Streams.executor": "Run",
     "Application.Student_Main.executor": "Run",
     "Application.SubStringF.executor": "Run",
+    "Application.TargetSum.executor": "Run",
     "Application.Task (1).executor": "Run",
     "Application.Task.executor": "Run",
     "Application.Task1.executor": "Debug",
@@ -112,7 +114,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Flower">
+  <component name="RunManager" selected="Application.TargetSum">
     <configuration name="Flower" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Arrays.Flower" />
       <module name="JavaProject" />
@@ -139,32 +141,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MissingRanges" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.MissingRanges" />
-      <module name="JavaProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LeetCode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NextGreatestLetter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.NextGreatestLetter" />
-      <module name="JavaProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LeetCode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Number_OfTheory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LeetCode.Number_OfTheory" />
       <module name="JavaProject" />
@@ -178,13 +154,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RemoveNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.RemoveNum" />
+      <module name="JavaProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TargetSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.TargetSum" />
+      <module name="JavaProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TargetSum" />
+        <item itemvalue="Application.RemoveNum" />
         <item itemvalue="Application.Flower" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Number_OfTheory" />
-        <item itemvalue="Application.MissingRanges" />
-        <item itemvalue="Application.NextGreatestLetter" />
       </list>
     </recent_temporary>
   </component>
@@ -196,14 +198,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1743475369187</updated>
-    </task>
-    <task id="LOCAL-00019" summary="overloading">
-      <option name="closed" value="true" />
-      <created>1744347639954</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1744347639954</updated>
     </task>
     <task id="LOCAL-00020" summary="overloading">
       <option name="closed" value="true" />
@@ -589,7 +583,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757476908412</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="Test">
+      <option name="closed" value="true" />
+      <created>1757518855003</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1757518855003</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
