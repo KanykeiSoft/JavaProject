@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ad68986-ce45-484a-b113-7056e69a447e" name="Changes" comment="Test">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Arrays/RemoveNum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Arrays/TargetSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Arrays/MoveZero.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,6 +66,7 @@
     "Application.MinMaxFinder.executor": "Run",
     "Application.MissingRanges.executor": "Run",
     "Application.MobilePhone_Main.executor": "Run",
+    "Application.MoveZero.executor": "Run",
     "Application.NextGreatestLetter.executor": "Run",
     "Application.NumberGraet.executor": "Run",
     "Application.Number_OfTheory.executor": "Debug",
@@ -114,7 +114,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TargetSum">
+  <component name="RunManager" selected="Application.MoveZero">
     <configuration name="Flower" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Arrays.Flower" />
       <module name="JavaProject" />
@@ -141,12 +141,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Number_OfTheory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.Number_OfTheory" />
+    <configuration name="MoveZero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.MoveZero" />
       <module name="JavaProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LeetCode.*" />
+          <option name="PATTERN" value="Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -182,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MoveZero" />
         <item itemvalue="Application.TargetSum" />
         <item itemvalue="Application.RemoveNum" />
         <item itemvalue="Application.Flower" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Number_OfTheory" />
       </list>
     </recent_temporary>
   </component>
@@ -198,14 +198,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1743475369187</updated>
-    </task>
-    <task id="LOCAL-00020" summary="overloading">
-      <option name="closed" value="true" />
-      <created>1744348358100</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1744348358100</updated>
     </task>
     <task id="LOCAL-00021" summary="overloading">
       <option name="closed" value="true" />
@@ -591,7 +583,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757518855003</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="Test">
+      <option name="closed" value="true" />
+      <created>1757524117988</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1757524117988</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
