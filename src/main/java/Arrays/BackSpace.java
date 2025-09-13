@@ -12,7 +12,7 @@ import java.util.Stack;
 //Explanation: Both s and t become "".
 public class BackSpace {
     public boolean backspaceCompare(String s, String t) {
-
+  return back(s).equals(back(t));
 
 
     }
@@ -27,4 +27,16 @@ public class BackSpace {
         }
         return sb.toString();
     }
-}
+
+    public static void main(String[] args) {
+                BackSpace a = new BackSpace();
+                System.out.println(a.backspaceCompare("ab#c", "ad#c"));   // true  -> "ac" vs "ac"
+                System.out.println(a.backspaceCompare("ab##", "c#d#"));   // true  -> "" vs ""
+                System.out.println(a.backspaceCompare("a#c", "b"));       // false -> "c" vs "b"
+
+                BackSpace b = new BackSpace();
+                System.out.println(b.backspaceCompare("xy#z", "xzz#"));   // true  -> "xz" vs "xz"
+            }
+        }
+
+
