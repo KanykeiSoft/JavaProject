@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ad68986-ce45-484a-b113-7056e69a447e" name="Changes" comment="Test">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Arrays/ZeroZe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Arrays/removeDuplicates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Arrays/BackSpace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Arrays/BackSpace.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +26,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Object.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -37,7 +43,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.BackSpace.executor": "Run",
+    "Application.BackSpace.executor": "Debug",
     "Application.BankAccountConstrOver_Main.executor": "Run",
     "Application.BankAccount_Main.executor": "Run",
     "Application.BinarySearch.executor": "Debug",
@@ -95,7 +101,9 @@
     "Application.Task12.executor": "Run",
     "Application.TaskNumber.executor": "Debug",
     "Application.TwoNumber.executor": "Run",
+    "Application.ZeroZe.executor": "Debug",
     "Application.Zooapp.executor": "Run",
+    "Application.removeDuplicates.executor": "Run",
     "JUnit.FactorialTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "kotlin-language-version-configured": "true",
@@ -114,22 +122,9 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BackSpace">
+  <component name="RunManager" selected="Application.removeDuplicates">
     <configuration name="BackSpace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Arrays.BackSpace" />
-      <module name="JavaProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Flower" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.Flower" />
       <module name="JavaProject" />
       <extension name="coverage">
         <pattern>
@@ -154,19 +149,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.RemoveNum" />
-      <module name="JavaProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TargetSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Arrays.TargetSum" />
       <module name="JavaProject" />
@@ -180,13 +162,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ZeroZe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.ZeroZe" />
+      <module name="JavaProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="removeDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.removeDuplicates" />
+      <module name="JavaProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.removeDuplicates" />
+        <item itemvalue="Application.ZeroZe" />
         <item itemvalue="Application.BackSpace" />
         <item itemvalue="Application.MoveZero" />
         <item itemvalue="Application.TargetSum" />
-        <item itemvalue="Application.RemoveNum" />
-        <item itemvalue="Application.Flower" />
       </list>
     </recent_temporary>
   </component>
@@ -198,14 +206,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1743475369187</updated>
-    </task>
-    <task id="LOCAL-00023" summary="conditional">
-      <option name="closed" value="true" />
-      <created>1744457585057</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1744457585057</updated>
     </task>
     <task id="LOCAL-00024" summary="conditional">
       <option name="closed" value="true" />
@@ -591,7 +591,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757734897004</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="Test">
+      <option name="closed" value="true" />
+      <created>1757735256603</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1757735256603</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -674,6 +682,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/Arrays/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Arrays/ZeroZe.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/Streams.java</url>

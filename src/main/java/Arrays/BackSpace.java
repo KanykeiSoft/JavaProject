@@ -20,7 +20,7 @@ public class BackSpace {
         StringBuilder sb = new StringBuilder();
         for(char c: str.toCharArray()){
             if(c != '#'){
-                sb.append(c);
+                    sb.append(c);
             }else if(sb.length() > 0) sb.deleteCharAt(sb.length()-1);
 
 
