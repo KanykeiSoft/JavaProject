@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ad68986-ce45-484a-b113-7056e69a447e" name="Changes" comment="Test">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Arrays/ZeroZe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Arrays/removeDuplicates.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Arrays/BackSpace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Arrays/BackSpace.java" afterDir="false" />
+    <list default="true" id="3ad68986-ce45-484a-b113-7056e69a447e" name="Changes" comment="leetcode">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Arrays/MergeSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +66,7 @@
     "Application.MapTask.executor": "Run",
     "Application.MarkCalculator.executor": "Run",
     "Application.MaxNumber.executor": "Run",
+    "Application.MergeSort.executor": "Run",
     "Application.MinMaxFinder.executor": "Run",
     "Application.MissingRanges.executor": "Run",
     "Application.MobilePhone_Main.executor": "Run",
@@ -122,7 +120,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.removeDuplicates">
+  <component name="RunManager" selected="Application.MergeSort">
     <configuration name="BackSpace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Arrays.BackSpace" />
       <module name="JavaProject" />
@@ -136,8 +134,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MoveZero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.MoveZero" />
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.MergeSort" />
       <module name="JavaProject" />
       <extension name="coverage">
         <pattern>
@@ -149,8 +147,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TargetSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.TargetSum" />
+    <configuration name="MoveZero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.MoveZero" />
       <module name="JavaProject" />
       <extension name="coverage">
         <pattern>
@@ -190,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.removeDuplicates" />
         <item itemvalue="Application.ZeroZe" />
         <item itemvalue="Application.BackSpace" />
         <item itemvalue="Application.MoveZero" />
-        <item itemvalue="Application.TargetSum" />
       </list>
     </recent_temporary>
   </component>
@@ -206,14 +204,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1743475369187</updated>
-    </task>
-    <task id="LOCAL-00024" summary="conditional">
-      <option name="closed" value="true" />
-      <created>1744458196351</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1744458196351</updated>
     </task>
     <task id="LOCAL-00025" summary="conditional">
       <option name="closed" value="true" />
@@ -599,7 +589,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757735256603</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="leetcode">
+      <option name="closed" value="true" />
+      <created>1757877706023</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1757877706023</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -628,7 +626,8 @@
     <MESSAGE value="time" />
     <MESSAGE value="array" />
     <MESSAGE value="Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test" />
+    <MESSAGE value="leetcode" />
+    <option name="LAST_COMMIT_MESSAGE" value="leetcode" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
