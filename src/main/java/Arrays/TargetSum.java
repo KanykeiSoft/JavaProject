@@ -22,8 +22,8 @@ public class TargetSum {
         int[] nums = new int[]{2, 7, 11, 15};
         int target = 9;
         TargetSum sum = new TargetSum();
-       int[] result =  sum.targetNum(nums, target);
-        System.out.println(Arrays.toString(result));
+        sum.targetNum(nums, target);
+        System.out.println(Arrays.toString(nums));
 
 
     }

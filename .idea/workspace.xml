@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ad68986-ce45-484a-b113-7056e69a447e" name="Changes" comment="leetcode">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Arrays/MergeSort.java" afterDir="false" />
+    <list default="true" id="3ad68986-ce45-484a-b113-7056e69a447e" name="Changes" comment="Merge sort">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Arrays/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Arrays/TargetSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Arrays/TargetSum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +89,7 @@
     "Application.Schedule.executor": "Run",
     "Application.Set_Main.executor": "Run",
     "Application.SignOfThe_Number.executor": "Run",
+    "Application.Solution.executor": "Run",
     "Application.SomeNum (1).executor": "Debug",
     "Application.SomeNum.executor": "Run",
     "Application.Streams.executor": "Run",
@@ -120,20 +123,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MergeSort">
-    <configuration name="BackSpace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.BackSpace" />
-      <module name="JavaProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Solution">
     <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Arrays.MergeSort" />
       <module name="JavaProject" />
@@ -147,8 +137,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MoveZero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.MoveZero" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.Solution" />
+      <module name="JavaProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TargetSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.TargetSum" />
       <module name="JavaProject" />
       <extension name="coverage">
         <pattern>
@@ -188,11 +191,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.TargetSum" />
         <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.removeDuplicates" />
         <item itemvalue="Application.ZeroZe" />
-        <item itemvalue="Application.BackSpace" />
-        <item itemvalue="Application.MoveZero" />
       </list>
     </recent_temporary>
   </component>
@@ -204,14 +207,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1743475369187</updated>
-    </task>
-    <task id="LOCAL-00025" summary="conditional">
-      <option name="closed" value="true" />
-      <created>1744495245262</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1744495245262</updated>
     </task>
     <task id="LOCAL-00026" summary="conditional">
       <option name="closed" value="true" />
@@ -597,7 +592,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757877706023</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="Merge sort">
+      <option name="closed" value="true" />
+      <created>1757880454846</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1757880454846</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -627,7 +630,8 @@
     <MESSAGE value="array" />
     <MESSAGE value="Test" />
     <MESSAGE value="leetcode" />
-    <option name="LAST_COMMIT_MESSAGE" value="leetcode" />
+    <MESSAGE value="Merge sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge sort" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
