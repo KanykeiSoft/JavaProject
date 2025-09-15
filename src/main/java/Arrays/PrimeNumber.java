@@ -2,7 +2,7 @@ package Arrays;
 
 public class PrimeNumber {
     public static void main(String[] args) {
-        int n = 36;
+        int n = 17;
         int factor = 0;
         int square_root = (int) Math.floor(Math.sqrt(n));
         System.out.println("Number: " + n);
@@ -11,7 +11,7 @@ public class PrimeNumber {
             if(n % i == 0){
                 factor+=2;
                 System.out.println("n is divisible by " + i);
-                if(i == square_root && i * i == 0){
+                if(i == square_root && i * i == n){
                     factor--;
                     System.out.println("n is a perfect square");
                 }else{
