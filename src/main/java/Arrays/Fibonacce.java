@@ -8,7 +8,7 @@ public class Fibonacce {
     }
 
     public static void main(String[] args) {
-        int n = 5; // ← здесь можно задать число
+        int n = 4; // ← здесь можно задать число
         int result = fib(n);
         System.out.println("fib(" + n + ") = " + result);
     }
