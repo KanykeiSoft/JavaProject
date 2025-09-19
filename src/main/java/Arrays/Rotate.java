@@ -5,8 +5,8 @@ import java.util.Arrays;
 public class Rotate {
     public void rotateNum(int[] nums, int k) {
         int n = nums.length;
-        if(n==0) return;
         k%=n;
+
     }
 
     public static void main(String[] args) {
