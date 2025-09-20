@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ad68986-ce45-484a-b113-7056e69a447e" name="Changes" comment="sort">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Arrays/LinkedListSolution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Arrays/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Arrays/NodeNode.java" afterDir="false" />
+    <list default="true" id="3ad68986-ce45-484a-b113-7056e69a447e" name="Changes" comment="linkedlist">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Arrays/SortColor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Arrays/Rotate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Arrays/Rotate.java" afterDir="false" />
     </list>
@@ -95,7 +93,7 @@
     "Application.RemoveArrayDuplicate.executor": "Run",
     "Application.RemoveNum.executor": "Run",
     "Application.Reverse.executor": "Run",
-    "Application.Rotate.executor": "Run",
+    "Application.Rotate.executor": "Debug",
     "Application.Schedule.executor": "Run",
     "Application.Set_Main.executor": "Run",
     "Application.SignOfThe_Number.executor": "Run",
@@ -133,20 +131,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NodeNode">
-    <configuration name="Fibonacce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.Fibonacce" />
-      <module name="JavaProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SortColor">
     <configuration name="LinkedListSolution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Arrays.LinkedListSolution" />
       <module name="JavaProject" />
@@ -199,13 +184,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SortColor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.SortColor" />
+      <module name="JavaProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortColor" />
+        <item itemvalue="Application.Rotate" />
         <item itemvalue="Application.NodeNode" />
         <item itemvalue="Application.LinkedListSolution" />
-        <item itemvalue="Application.Rotate" />
         <item itemvalue="Application.Parity" />
-        <item itemvalue="Application.Fibonacce" />
       </list>
     </recent_temporary>
   </component>
@@ -217,14 +215,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1743475369187</updated>
-    </task>
-    <task id="LOCAL-00033" summary="Object">
-      <option name="closed" value="true" />
-      <created>1745264254751</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1745264254751</updated>
     </task>
     <task id="LOCAL-00034" summary="Object">
       <option name="closed" value="true" />
@@ -610,7 +600,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758207449511</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="linkedlist">
+      <option name="closed" value="true" />
+      <created>1758293835043</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1758293835043</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -645,7 +643,8 @@
     <MESSAGE value="Prime number" />
     <MESSAGE value="Palindrome" />
     <MESSAGE value="sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="sort" />
+    <MESSAGE value="linkedlist" />
+    <option name="LAST_COMMIT_MESSAGE" value="linkedlist" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -717,6 +716,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/Arrays/Parity.java</url>
           <line>6</line>
           <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Arrays/SortColor.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/Streams.java</url>
