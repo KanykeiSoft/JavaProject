@@ -9,21 +9,21 @@ public class SortColor {
         int twoInsertPos = nums.length - 1;
 
         // Итератор по массиву
-        int i = 0;
+        int mid = 0;
 
         // Пока середина не пересечётся с правой границей   {2, 0, 2, 1, 1, 0};
-        while (i <= twoInsertPos) {
-            if (nums[i] == 0) {
+        while (mid <= twoInsertPos) {
+            if (nums[mid] == 0) {
                 // Если встретили 0 → ставим его в начало
-                swap(nums, zeroInsertPos, i);
+                swap(nums, zeroInsertPos, mid);
                 zeroInsertPos++;
-                i++; // можно увеличить, т.к. на место i попадает уже проверенный элемент
-            } else if (nums[i] == 1) {
+                mid++; // можно увеличить, т.к. на место i попадает уже проверенный элемент
+            } else if (nums[mid] == 1) {
                 // Если встретили 1 → он и так должен быть посередине
-                i++;
+                mid++;
             } else { // nums[i] == 2
                 // Если встретили 2 → отправляем его в конец
-                swap(nums, i, twoInsertPos);
+                swap(nums, mid, twoInsertPos);
                 twoInsertPos--;
                 // i не увеличиваем, т.к. на место i приехал новый элемент из конца,
                 // и его ещё нужно проверить

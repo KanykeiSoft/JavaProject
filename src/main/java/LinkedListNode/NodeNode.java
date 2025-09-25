@@ -1,4 +1,4 @@
-package Arrays;
+package LinkedListNode;
 
 public class NodeNode{
     public static void main(String[] args) {

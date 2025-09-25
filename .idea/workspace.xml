@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ad68986-ce45-484a-b113-7056e69a447e" name="Changes" comment="linkedlist">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Arrays/SortColor.java" afterDir="false" />
+    <list default="true" id="3ad68986-ce45-484a-b113-7056e69a447e" name="Changes" comment="in place">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Arrays/Rotate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Arrays/Rotate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Arrays/LinkedListSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LinkedListNode/LinkedListSolution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Arrays/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LinkedListNode/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Arrays/NodeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LinkedListNode/NodeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Arrays/SortColor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Arrays/SortColor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,90 +41,91 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.BackSpace.executor": "Debug",
-    "Application.BankAccountConstrOver_Main.executor": "Run",
-    "Application.BankAccount_Main.executor": "Run",
-    "Application.BinarySearch.executor": "Debug",
-    "Application.CarMain.executor": "Run",
-    "Application.Chocolate.executor": "Debug",
-    "Application.Composition_Main.executor": "Run",
-    "Application.CountArrays.executor": "Debug",
-    "Application.Course_Main.executor": "Run",
-    "Application.CreditCardPayment.executor": "Run",
-    "Application.DataFirst.executor": "Debug",
-    "Application.DateTypee.executor": "Run",
-    "Application.DayAndTime.executor": "Run",
-    "Application.DayTime.executor": "Run",
-    "Application.Degree.executor": "Run",
-    "Application.Factorial.executor": "Run",
-    "Application.Fibonacce.executor": "Run",
-    "Application.Flower.executor": "Run",
-    "Application.Geometri.executor": "Run",
-    "Application.Hypotenuse.executor": "Run",
-    "Application.Leap_Year.executor": "Run",
-    "Application.LinkedListSolution.executor": "Run",
-    "Application.ListNode.executor": "Run",
-    "Application.LoopsTask.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.MapTask.executor": "Run",
-    "Application.MarkCalculator.executor": "Run",
-    "Application.MaxNumber.executor": "Run",
-    "Application.MergeSort.executor": "Run",
-    "Application.MinMaxFinder.executor": "Run",
-    "Application.MissingRanges.executor": "Run",
-    "Application.MobilePhone_Main.executor": "Run",
-    "Application.MoveZero.executor": "Run",
-    "Application.NextGreatestLetter.executor": "Run",
-    "Application.NodeNode.executor": "Run",
-    "Application.NumberGraet.executor": "Run",
-    "Application.Number_OfTheory.executor": "Debug",
-    "Application.OverLoad.executor": "Run",
-    "Application.Overriding_Main.executor": "Run",
-    "Application.PCake.executor": "Debug",
-    "Application.Palindrome.executor": "Debug",
-    "Application.Parity.executor": "Run",
-    "Application.Payment_Main.executor": "Run",
-    "Application.Polindrome.executor": "Run",
-    "Application.PrimeFactors.executor": "Run",
-    "Application.PrimeNumber.executor": "Run",
-    "Application.RectangleFields_Main.executor": "Run",
-    "Application.Remainder.executor": "Run",
-    "Application.RemoveArrayDuplicate.executor": "Run",
-    "Application.RemoveNum.executor": "Run",
-    "Application.Reverse.executor": "Run",
-    "Application.Rotate.executor": "Debug",
-    "Application.Schedule.executor": "Run",
-    "Application.Set_Main.executor": "Run",
-    "Application.SignOfThe_Number.executor": "Run",
-    "Application.Solution.executor": "Run",
-    "Application.SomeNum (1).executor": "Debug",
-    "Application.SomeNum.executor": "Run",
-    "Application.Streams.executor": "Run",
-    "Application.Student_Main.executor": "Run",
-    "Application.SubStringF.executor": "Run",
-    "Application.TargetSum.executor": "Run",
-    "Application.Task (1).executor": "Run",
-    "Application.Task.executor": "Run",
-    "Application.Task1.executor": "Debug",
-    "Application.Task12.executor": "Run",
-    "Application.TaskNumber.executor": "Debug",
-    "Application.TwoNumber.executor": "Run",
-    "Application.ZeroZe.executor": "Debug",
-    "Application.Zooapp.executor": "Run",
-    "Application.removeDuplicates.executor": "Run",
-    "JUnit.FactorialTest.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "/Users/koka/Desktop/Java/javaProject/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.BackSpace.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.BankAccountConstrOver_Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BankAccount_Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BinarySearch.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.CarMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Chocolate.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Composition_Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CountArrays.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Course_Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CreditCardPayment.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DataFirst.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.DateTypee.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DayAndTime.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DayTime.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Degree.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Factorial.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Fibonacce.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Flower.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Geometri.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Hypotenuse.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Leap_Year.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LinkedListSolution.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListNode.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LoopsTask.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MapTask.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MarkCalculator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaxNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MergeSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MinMaxFinder.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MissingRanges.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MobilePhone_Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MoveZero.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NextGreatestLetter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NodeNode.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NumberGraet.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Number_OfTheory.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.OverLoad.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Overriding_Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PCake.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Palindrome.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Parity.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Payment_Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Polindrome.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrimeFactors.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrimeNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RectangleFields_Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Remainder.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveArrayDuplicate.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveNum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Reverse.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Rotate.executor&quot;: &quot;Coverage&quot;,
+    &quot;Application.Schedule.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Set_Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SignOfThe_Number.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Solution.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SomeNum (1).executor&quot;: &quot;Debug&quot;,
+    &quot;Application.SomeNum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SortColor.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Streams.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Student_Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SubStringF.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TargetSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Task (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Task.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Task1.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Task12.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TaskNumber.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.TwoNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ZeroZe.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Zooapp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.removeDuplicates.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FactorialTest.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/koka/Desktop/Java/javaProject/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/Vehicle" />
@@ -133,11 +136,11 @@
   </component>
   <component name="RunManager" selected="Application.SortColor">
     <configuration name="LinkedListSolution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.LinkedListSolution" />
+      <option name="MAIN_CLASS_NAME" value="LinkedListNode.LinkedListSolution" />
       <module name="JavaProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Arrays.*" />
+          <option name="PATTERN" value="LinkedListNode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,11 +149,11 @@
       </method>
     </configuration>
     <configuration name="NodeNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.NodeNode" />
+      <option name="MAIN_CLASS_NAME" value="LinkedListNode.NodeNode" />
       <module name="JavaProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Arrays.*" />
+          <option name="PATTERN" value="LinkedListNode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,7 +166,7 @@
       <module name="JavaProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Arrays.*" />
+          <option name="PATTERN" value="LinkedListNode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,7 +179,7 @@
       <module name="JavaProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Arrays.*" />
+          <option name="PATTERN" value="LinkedListNode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -189,7 +192,7 @@
       <module name="JavaProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Arrays.*" />
+          <option name="PATTERN" value="LinkedListNode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -215,14 +218,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1743475369187</updated>
-    </task>
-    <task id="LOCAL-00034" summary="Object">
-      <option name="closed" value="true" />
-      <created>1745371553703</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1745371553703</updated>
     </task>
     <task id="LOCAL-00035" summary="Object">
       <option name="closed" value="true" />
@@ -608,7 +603,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758293835043</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="in place">
+      <option name="closed" value="true" />
+      <created>1758335409353</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1758335409353</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -644,7 +647,8 @@
     <MESSAGE value="Palindrome" />
     <MESSAGE value="sort" />
     <MESSAGE value="linkedlist" />
-    <option name="LAST_COMMIT_MESSAGE" value="linkedlist" />
+    <MESSAGE value="in place" />
+    <option name="LAST_COMMIT_MESSAGE" value="in place" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -737,6 +741,9 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaProject$Factorial.ic" NAME="Factorial Coverage Results" MODIFIED="1746239261903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>BasicsSyntax.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/JavaProject$Rotate.ic" NAME="Rotate Coverage Results" MODIFIED="1758335091721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>Arrays.*</FILTER>
     </SUITE>
   </component>
 </project>
