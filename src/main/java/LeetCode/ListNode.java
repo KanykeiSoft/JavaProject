@@ -4,6 +4,8 @@ import java.util.Arrays;
 
 public class ListNode {
 
+
+
     public static void main(String[] args) {
 
         // Example of binary search on a sorted array

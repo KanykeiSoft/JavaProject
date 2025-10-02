@@ -4,6 +4,29 @@ import Prefix.NumArray;
 
 public class isPalindrome {
 
+
+    public static void main(String[] args) {
+        isPalindrome p = new isPalindrome();
+        ListNode1 h1 = new ListNode1(1);
+        h1.next = new ListNode1(2);
+        h1.next.next = new ListNode1(2);
+        h1.next.next.next = new ListNode1(1);
+        System.out.println(p.isPalin(h1));
+
+
+        ListNode1 h2 = new ListNode1(1);
+        h2.next = new ListNode1(2);
+        System.out.println(p.isPalin(h2)); // false
+
+        // 1 → 2 → 3 → 2 → 1
+        ListNode1 h3 = new ListNode1(1);
+        h3.next = new ListNode1(2);
+        h3.next.next = new ListNode1(3);
+        h3.next.next.next = new ListNode1(2);
+        h3.next.next.next.next = new ListNode1(1);
+        System.out.println(p.isPalin(h3)); // true
+    }
+
     public boolean isPalin(ListNode1 head){
         if (head == null || head.next == null) return true;
 
