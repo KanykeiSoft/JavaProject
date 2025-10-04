@@ -1,4 +1,4 @@
-package Arrays;
+package Palindromme;
 
 import java.util.HashSet;
 import java.util.Set;

@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ad68986-ce45-484a-b113-7056e69a447e" name="Changes" comment="numarray">
-      <change afterPath="$PROJECT_DIR$/src/main/java/stackcall/Parentheses.java" afterDir="false" />
+    <list default="true" id="3ad68986-ce45-484a-b113-7056e69a447e" name="Changes" comment="Parentheses">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LeetCode/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LeetCode/isPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/isPalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Arrays/EuclideanGCD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Arrays/EuclideanGCD.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +83,7 @@
     "Application.Overriding_Main.executor": "Run",
     "Application.PCake.executor": "Debug",
     "Application.Palindrome.executor": "Debug",
-    "Application.Parentheses.executor": "Run",
+    "Application.Parentheses.executor": "Debug",
     "Application.Parity.executor": "Run",
     "Application.Payment_Main.executor": "Run",
     "Application.Polindrome.executor": "Run",
@@ -136,7 +134,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Parentheses">
+  <component name="RunManager" selected="Application.EuclideanGCD">
     <configuration name="EuclideanGCD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Arrays.EuclideanGCD" />
       <module name="JavaProject" />
@@ -204,9 +202,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EuclideanGCD" />
         <item itemvalue="Application.Parentheses" />
         <item itemvalue="Application.isPalindrome" />
-        <item itemvalue="Application.EuclideanGCD" />
         <item itemvalue="Application.SortColor" />
         <item itemvalue="Application.Rotate" />
       </list>
@@ -220,14 +218,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1743475369187</updated>
-    </task>
-    <task id="LOCAL-00039" summary="Composition, abstract, &#10;protected">
-      <option name="closed" value="true" />
-      <created>1745702862180</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1745702862180</updated>
     </task>
     <task id="LOCAL-00040" summary="Composition, abstract, &#10;protected">
       <option name="closed" value="true" />
@@ -613,7 +603,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759151598741</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="Parentheses">
+      <option name="closed" value="true" />
+      <created>1759372102110</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1759372102111</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -652,7 +650,8 @@
     <MESSAGE value="in place" />
     <MESSAGE value="EuclideanGCD" />
     <MESSAGE value="numarray" />
-    <option name="LAST_COMMIT_MESSAGE" value="numarray" />
+    <MESSAGE value="Parentheses" />
+    <option name="LAST_COMMIT_MESSAGE" value="Parentheses" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
