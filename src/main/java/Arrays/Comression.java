@@ -11,7 +11,7 @@ public class Comression {
             while(j< n && chars[j]== chars[i])
                 j++;
             int cnt = j-i;
-                chars[w] = chars[i];
+                chars[w++] = chars[i];
                 if(cnt < 1){
                     String s = Integer.toString(cnt);
                     for (int k = 0; k < s.length(); k++){
