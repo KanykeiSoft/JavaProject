@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ad68986-ce45-484a-b113-7056e69a447e" name="Changes" comment="Parentheses">
+    <list default="true" id="3ad68986-ce45-484a-b113-7056e69a447e" name="Changes" comment="Compression">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Arrays/binary/SqrtCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Arrays/Comression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Arrays/Comression.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +48,7 @@
     "Application.CarMain.executor": "Run",
     "Application.Chocolate.executor": "Debug",
     "Application.Composition_Main.executor": "Run",
-    "Application.Comression.executor": "Run",
+    "Application.Comression.executor": "Debug",
     "Application.CountArrays.executor": "Debug",
     "Application.Course_Main.executor": "Run",
     "Application.CreditCardPayment.executor": "Run",
@@ -136,7 +136,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Comression">
+  <component name="RunManager" selected="Application.SqrtCalculator">
     <configuration name="Comression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Arrays.Comression" />
       <module name="JavaProject" />
@@ -163,12 +163,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Parentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stackcall.Parentheses" />
+    <configuration name="SqrtCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.binary.SqrtCalculator" />
       <module name="JavaProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stackcall.*" />
+          <option name="PATTERN" value="Arrays.binary.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -204,11 +204,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SqrtCalculator" />
         <item itemvalue="Application.Comression" />
         <item itemvalue="Application.TwoSum" />
         <item itemvalue="Application.isPalindrome" />
         <item itemvalue="Application.EuclideanGCD" />
-        <item itemvalue="Application.Parentheses" />
       </list>
     </recent_temporary>
   </component>
@@ -220,14 +220,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1743475369187</updated>
-    </task>
-    <task id="LOCAL-00043" summary="Interface">
-      <option name="closed" value="true" />
-      <created>1745895028726</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1745895028726</updated>
     </task>
     <task id="LOCAL-00044" summary="Interface">
       <option name="closed" value="true" />
@@ -613,7 +605,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759758517305</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="Compression">
+      <option name="closed" value="true" />
+      <created>1759952870212</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1759952870214</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -653,7 +653,8 @@
     <MESSAGE value="EuclideanGCD" />
     <MESSAGE value="numarray" />
     <MESSAGE value="Parentheses" />
-    <option name="LAST_COMMIT_MESSAGE" value="Parentheses" />
+    <MESSAGE value="Compression" />
+    <option name="LAST_COMMIT_MESSAGE" value="Compression" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -757,6 +758,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/Arrays/binary/SqrtCalculator.java</url>
+          <line>3</line>
+          <properties class="Arrays.binary.SqrtCalculator" method="mySqrt">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="32" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
