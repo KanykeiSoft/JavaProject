@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ad68986-ce45-484a-b113-7056e69a447e" name="Changes" comment="Compression">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Arrays/binary/SqrtCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Bean/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Bean/Task.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Bean/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bean/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Bean/TaskBean.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,96 +41,96 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.BackSpace.executor": "Debug",
-    "Application.BankAccountConstrOver_Main.executor": "Run",
-    "Application.BankAccount_Main.executor": "Run",
-    "Application.BinarySearch.executor": "Debug",
-    "Application.CarMain.executor": "Run",
-    "Application.Chocolate.executor": "Debug",
-    "Application.Composition_Main.executor": "Run",
-    "Application.Comression.executor": "Debug",
-    "Application.CountArrays.executor": "Debug",
-    "Application.Course_Main.executor": "Run",
-    "Application.CreditCardPayment.executor": "Run",
-    "Application.DataFirst.executor": "Debug",
-    "Application.DateTypee.executor": "Run",
-    "Application.DayAndTime.executor": "Run",
-    "Application.DayTime.executor": "Run",
-    "Application.Degree.executor": "Run",
-    "Application.EuclideanGCD.executor": "Run",
-    "Application.Factorial.executor": "Run",
-    "Application.Fibonacce.executor": "Run",
-    "Application.Flower.executor": "Run",
-    "Application.Geometri.executor": "Run",
-    "Application.Hypotenuse.executor": "Run",
-    "Application.Leap_Year.executor": "Run",
-    "Application.LinkedListSolution.executor": "Run",
-    "Application.ListNode.executor": "Run",
-    "Application.LoopsTask.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.MapTask.executor": "Run",
-    "Application.MarkCalculator.executor": "Run",
-    "Application.MaxNumber.executor": "Run",
-    "Application.MergeSort.executor": "Run",
-    "Application.MinMaxFinder.executor": "Run",
-    "Application.MissingRanges.executor": "Run",
-    "Application.MobilePhone_Main.executor": "Run",
-    "Application.MoveZero.executor": "Run",
-    "Application.NextGreatestLetter.executor": "Run",
-    "Application.NodeNode.executor": "Run",
-    "Application.NumberGraet.executor": "Run",
-    "Application.Number_OfTheory.executor": "Debug",
-    "Application.OverLoad.executor": "Run",
-    "Application.Overriding_Main.executor": "Run",
-    "Application.PCake.executor": "Debug",
-    "Application.Palindrome.executor": "Debug",
-    "Application.Parentheses.executor": "Debug",
-    "Application.Parity.executor": "Run",
-    "Application.Payment_Main.executor": "Run",
-    "Application.Polindrome.executor": "Run",
-    "Application.PrimeFactors.executor": "Run",
-    "Application.PrimeNumber.executor": "Run",
-    "Application.RectangleFields_Main.executor": "Run",
-    "Application.Remainder.executor": "Run",
-    "Application.RemoveArrayDuplicate.executor": "Run",
-    "Application.RemoveNum.executor": "Run",
-    "Application.Reverse.executor": "Run",
-    "Application.Rotate.executor": "Coverage",
-    "Application.Schedule.executor": "Run",
-    "Application.Set_Main.executor": "Run",
-    "Application.SignOfThe_Number.executor": "Run",
-    "Application.Solution.executor": "Run",
-    "Application.SomeNum (1).executor": "Debug",
-    "Application.SomeNum.executor": "Run",
-    "Application.SortColor.executor": "Debug",
-    "Application.Streams.executor": "Run",
-    "Application.Student_Main.executor": "Run",
-    "Application.SubStringF.executor": "Run",
-    "Application.TargetSum.executor": "Run",
-    "Application.Task (1).executor": "Run",
-    "Application.Task.executor": "Run",
-    "Application.Task1.executor": "Debug",
-    "Application.Task12.executor": "Run",
-    "Application.TaskNumber.executor": "Debug",
-    "Application.TwoNumber.executor": "Run",
-    "Application.TwoSum.executor": "Run",
-    "Application.ZeroZe.executor": "Debug",
-    "Application.Zooapp.executor": "Run",
-    "Application.isPalindrome.executor": "Run",
-    "Application.removeDuplicates.executor": "Run",
-    "JUnit.FactorialTest.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "/Users/koka/Desktop/Java/javaProject/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.BackSpace.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.BankAccountConstrOver_Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BankAccount_Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BinarySearch.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.CarMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Chocolate.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Composition_Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Comression.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.CountArrays.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Course_Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CreditCardPayment.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DataFirst.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.DateTypee.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DayAndTime.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DayTime.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Degree.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EuclideanGCD.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Factorial.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Fibonacce.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Flower.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Geometri.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Hypotenuse.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Leap_Year.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LinkedListSolution.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListNode.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LoopsTask.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MapTask.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MarkCalculator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaxNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MergeSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MinMaxFinder.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MissingRanges.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MobilePhone_Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MoveZero.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NextGreatestLetter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NodeNode.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NumberGraet.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Number_OfTheory.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.OverLoad.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Overriding_Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PCake.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Palindrome.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Parentheses.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Parity.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Payment_Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Polindrome.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrimeFactors.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrimeNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RectangleFields_Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Remainder.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveArrayDuplicate.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveNum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Reverse.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Rotate.executor&quot;: &quot;Coverage&quot;,
+    &quot;Application.Schedule.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Set_Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SignOfThe_Number.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Solution.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SomeNum (1).executor&quot;: &quot;Debug&quot;,
+    &quot;Application.SomeNum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SortColor.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Streams.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Student_Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SubStringF.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TargetSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Task (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Task.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Task1.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Task12.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TaskNumber.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.TwoNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TwoSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ZeroZe.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Zooapp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.isPalindrome.executor&quot;: &quot;Run&quot;,
+    &quot;Application.removeDuplicates.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FactorialTest.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/koka/Desktop/Java/javaProject/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/Vehicle" />
@@ -136,7 +139,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SqrtCalculator">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Comression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Arrays.Comression" />
       <module name="JavaProject" />
@@ -150,12 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EuclideanGCD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.EuclideanGCD" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Bean.Main" />
       <module name="JavaProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Prefix.*" />
+          <option name="PATTERN" value="Bean.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -204,11 +207,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.SqrtCalculator" />
         <item itemvalue="Application.Comression" />
         <item itemvalue="Application.TwoSum" />
         <item itemvalue="Application.isPalindrome" />
-        <item itemvalue="Application.EuclideanGCD" />
       </list>
     </recent_temporary>
   </component>
@@ -220,14 +223,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1743475369187</updated>
-    </task>
-    <task id="LOCAL-00044" summary="Interface">
-      <option name="closed" value="true" />
-      <created>1745895552547</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1745895552547</updated>
     </task>
     <task id="LOCAL-00045" summary="Stack">
       <option name="closed" value="true" />
@@ -613,7 +608,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759952870214</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="Compression">
+      <option name="closed" value="true" />
+      <created>1761021034257</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1761021034257</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -732,6 +735,11 @@
           <line>5</line>
           <option name="timeStamp" value="29" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Oop/Employee.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/Streams.java</url>
           <line>4</line>
@@ -753,7 +761,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/Palindromme/isPalindrome.java</url>
           <line>20</line>
-          <properties class="isPalindrome" method="main">
+          <properties class="Palindromme.isPalindrome" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
