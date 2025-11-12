@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ad68986-ce45-484a-b113-7056e69a447e" name="Changes" comment="Compression">
+    <list default="true" id="3ad68986-ce45-484a-b113-7056e69a447e" name="Changes" comment="recursion">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Bank_app/findMin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bank_app/findMin.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +115,7 @@
     "Application.TwoSum.executor": "Run",
     "Application.ZeroZe.executor": "Debug",
     "Application.Zooapp.executor": "Run",
-    "Application.findMin.executor": "Run",
+    "Application.findMin.executor": "Debug",
     "Application.isPalindrome.executor": "Run",
     "Application.removeDuplicates.executor": "Run",
     "JUnit.FactorialTest.executor": "Run",
@@ -221,14 +220,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1743475369187</updated>
-    </task>
-    <task id="LOCAL-00049" summary="Polidrome">
-      <option name="closed" value="true" />
-      <created>1746494262509</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1746494262509</updated>
     </task>
     <task id="LOCAL-00050" summary="Set">
       <option name="closed" value="true" />
@@ -614,7 +605,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762488529298</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="recursion">
+      <option name="closed" value="true" />
+      <created>1762573973909</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1762573973909</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -630,7 +629,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="date" />
     <MESSAGE value="conditional" />
     <MESSAGE value="overloading" />
     <MESSAGE value="Object" />
@@ -655,7 +653,8 @@
     <MESSAGE value="numarray" />
     <MESSAGE value="Parentheses" />
     <MESSAGE value="Compression" />
-    <option name="LAST_COMMIT_MESSAGE" value="Compression" />
+    <MESSAGE value="recursion" />
+    <option name="LAST_COMMIT_MESSAGE" value="recursion" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -773,6 +772,24 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/Bank_app/findMin.java</url>
+          <line>7</line>
+          <properties class="Bank_app.findMin" method="generate">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/Bank_app/findMin.java</url>
+          <line>13</line>
+          <properties class="Bank_app.findMin" method="backtrack">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="35" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
