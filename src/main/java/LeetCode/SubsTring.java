@@ -6,13 +6,13 @@ import java.util.Set;
 public class SubsTring {
     public static String longestNiceSubstring(String s){
         int n = s.length();
-        String best = " ";
+        String best = "";
         for(int i = 0; i < n; i++){
             Set<Character> seen = new HashSet<>();
 
             for(int j = i; j < n; j++){
                 seen.add(s.charAt(j));
-                if(IsNice(seen) && j - i +1 > best.length()){
+                if(IsNice(seen) && j - i +1 > best.length()){ //стало { 'a', 'A' }
                     best = s.substring(i, j+1);
                 }
 
@@ -35,7 +35,7 @@ public class SubsTring {
 
     }
     public static void main(String[] args) {
-        String s = "YazaAay";
+        String s = "zaAa";
         System.out.println(longestNiceSubstring(s));
     }
 }
